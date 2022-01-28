@@ -1,0 +1,36 @@
+body{
+    background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header{
+    padding-top: 10px;
+    padding-left: 180px;
+    top: 0px;
+    left: 0;
+    height: 70px;
+    position: fixed;
+    background-color: #04AA6D;
+    width: 100%;
+    margin:0;
+    box-sizing: border-box;
+}
+.header_button{
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 23px;
+    border: black;
+    display: inline-block;
+    text-align: center;
+}
+.header_button a{
+    color: black;
+    text-decoration: none;
+}
+.header_button a:hover{
+    background: gray;
+    font-size: 26px;
+}
+.main{
+    margin-top: 80px;
+}
