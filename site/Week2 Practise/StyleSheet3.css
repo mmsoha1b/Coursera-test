@@ -38,9 +38,6 @@ h1{
 .footer a:active{
     color: rebeccapurple;
 }
-.footer a:visited{
-    color: royalblue;
-}
 .footer a:hover{
     color: red;
 }
