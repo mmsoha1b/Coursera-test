@@ -35,3 +35,6 @@ body{
 .main{
     margin-top: 80px;
 }
+#float{
+    float: right;
+}

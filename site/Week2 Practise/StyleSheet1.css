@@ -64,3 +64,9 @@
 float: right;
 clear: right;
 }
+#float_right{
+    float: right;
+}
+#float_left{
+float: left;
+}
