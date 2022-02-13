@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #aabaff;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+}
+.side_bar{
+    height: 100%;
+    left:0px;
+    top:0px;
+    position: fixed;
+    background-color: black;
+    width:10px
+}
+.main{
+    margin-right: 10px;
+    border:black
+}
+.footer{
+    width:100%;
+}
+@media(min-width:1200px)
+{
+    .side_bar{  
+        width:100px;
+    }
+    .main{
+        margin-left:100px;
+    }
+}
+@media(min-width:960px) and (max-width:1199px){
+    .side_bar{
+        width:30px;
+    }
+    .main{
+        margin-right: 30px;
+    }
+}

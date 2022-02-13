@@ -6,6 +6,9 @@ body{
     font-family:Arial, Helvetica, sans-serif;
     z-index: 0;
 }
+@media (min-width:1200px){
+
+
 .main{
     background-color: #aaffaa;
     margin: 30px;
@@ -40,4 +43,5 @@ h1{
 }
 .footer a:hover{
     color: red;
+}
 }
